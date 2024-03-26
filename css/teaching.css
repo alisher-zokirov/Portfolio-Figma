@@ -1,0 +1,135 @@
+@import url(./fonts.css);
+* {
+  font-family: "RobotoSlab";
+  font-weight: 400;
+}
+.navbar-line {
+  border: 2px solid #1278b9;
+}
+.navbar {
+  min-height: 90px;
+  top: 0;
+}
+.navbar-logo {
+  font-size: 20px;
+}
+.navbar-link {
+  color: #4c5166;
+  font-weight: 500;
+  font-size: 16px;
+}
+.blue-color,
+.navbar-link:hover,
+.navbar-link:active {
+  color: #1278b9;
+}
+.navbar-bar {
+  display: inline-block;
+  cursor: pointer;
+}
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  margin: 6px 0;
+  transition: 0.4s;
+  background-color: #1278b9;
+}
+.change {
+  transform: rotate(360deg);
+  transition: 0.5s;
+}
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+.change .bar2 {
+  opacity: 0;
+}
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+.navbar-screen {
+  top: 90px;
+  height: 195px;
+  overflow: scroll;
+}
+.navbar-screen a {
+  display: flex;
+  align-items: center;
+  padding-left: 8%;
+  color: #333;
+  background-color: white;
+}
+.navbar-screen a:hover {
+  background-color: #1278b9;
+  color: white;
+  width: 100%;
+}
+
+/* header */
+.header {
+    background-image: url(../images/heading_bg.jpg);
+    min-height: 275px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 60px;
+}  
+
+.header-text h1{
+    margin-top: 135px;
+    color: white;
+}
+/* header end */
+
+/* title */
+.line{
+    width: 200px;
+    height: 2.5px;
+    margin-top: 40px;
+    background-color: #1278b9;
+}
+
+.title-p{
+  font-weight: 200;
+}
+
+.title-href{
+  font-weight: 200;
+}
+/* title end */
+
+/* supervision */
+.past-projects{
+    margin-top: 200px;
+    width: 100%;
+    height: 3500px;
+    overflow: hidden;
+}
+
+.title-text{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(226,226,226,0.2);
+}
+  
+.bg-text p{
+    font-size: 18px;
+}
+/* supervision */
+
+/* footer */
+.footer-line{
+    width: 100%;
+    height: 20px;
+    background-color: #5a617a;
+}
+  
+.footer-container{
+    width: 100%;
+    height: 100px;
+    background-color: #4c5166;
+    color: rgba(255,255,255,1);
+    font-weight: 300;
+}
+/* footer end */
